@@ -12,6 +12,17 @@ a {
     color: var(--general-font-color);
 }
 
+.button {
+    display: var(--button-display);
+    padding: var(--button-padding);
+    border: var(--button-border);
+    font-size: var(--button-font-size);
+    color: var(--button-color);
+    text-decoration: var(--button-text-decoration);
+    border-radius: 20px 20px 20px 20px;
+    background-color:#ff6565;
+}
+
 .button:hoover,
 .button:active {
     opacity: var(--button-opacity-hover-active);
@@ -61,6 +72,8 @@ so the element can sit next to other elements.*/
 }
 
 :root {
+    --color-back-button: #ff6565;
+    --color-white: #ffffff;
     --button-opacity-hover-active: 0.9;
     /*font-variables*/
     --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -78,4 +91,11 @@ so the element can sit next to other elements.*/
     --nav-item-margin: 0 0 3rem 0;
 
     --section-tittle-align: center;
+
+    --button-display: inline-block;
+    --button-padding: 1.5rem 3rem;
+    --button-border: 0.2rem solid var(--color-back-button);
+    --button-font-size: var(--font-size-large);
+    --button-color: var(--color-white);
+    --button-text-decoration: none;
 }
