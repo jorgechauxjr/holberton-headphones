@@ -1,0 +1,81 @@
+
+/* Behavior of the scroll to be as fluid as possible */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url("images/headphones_hero_1.jpg");
+}
+
+a {
+    text-decoration: none;
+    color: var(--general-font-color);
+}
+
+.button:hoover,
+.button:active {
+    opacity: var(--button-opacity-hover-active);
+}
+/* wide and evenly distribute the margins
+ on both the left and and right side */
+ .header {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Personalize the navigation bar menu*/
+.navbar-menu {
+    float: right;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+/*inline-block does not add a line-break after the element,
+so the element can sit next to other elements.*/
+.nav .nav-item {
+    display: var(--nav-item-display);
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+}
+
+.section-tittle {
+    text-align: var(--section-tittle-align);
+    font-size: var(--font-size-large);
+}
+
+.section-inner {
+    color: var(--general-font-color);
+}
+
+.section-inner p {
+    font-size: var(--font-size-small);
+}
+
+:root {
+    --button-opacity-hover-active: 0.9;
+    /*font-variables*/
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-weight-bold: 700;
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --general-font-color: #ffffff;
+    /*nav-item variables*/
+    --nav-item-display: inline-block;
+    --nav-item-font-family: var(--font-family-title);
+    --nav-item-font-weight: var(--font-weight-bold);
+    --nav-item-font-size: var(--font-size-small);
+    --nav-item-letter-spacing: 0.04rem;
+    --nav-item-margin: 0 0 3rem 0;
+
+    --section-tittle-align: center;
+}
