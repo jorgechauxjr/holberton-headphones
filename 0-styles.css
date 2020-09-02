@@ -91,6 +91,7 @@ so the element can sit next to other elements.*/
 
 .section-inner {
     color: var(--general-font-color);
+    text-align: center;
 }
 
 .section-inner p {
