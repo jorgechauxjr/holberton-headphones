@@ -12,6 +12,17 @@ a {
     color: var(--general-font-color);
 }
 
+/*Organize the section-hero main info to be a little bit down*/
+/*border permite ver al marco del contenedor y la diferencia
+entre padding-top y margin-top*/
+section.section-hero {
+    width:1000px;
+    margin: auto;
+    /* border: 3px solid #73AD21; */
+    /* padding-top: 250px; */
+    margin-top: 250px;
+}
+
 /*Decorate the anchor, class called button
 so it looks like a button*/
 .button {
