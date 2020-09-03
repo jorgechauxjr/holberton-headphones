@@ -640,3 +640,24 @@
   margin-left: 29%;
   margin-right: 29%;
 }
+
+.footer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: url(images/headphones_hero_1.jpg);
+}
+
+.footer img {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 20%;
+}
+
+.social {
+  margin-right: 100px;
+  text-align: right;
+}
+
+.footer p {
+  text-align: center;
+}
