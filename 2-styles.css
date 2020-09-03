@@ -586,4 +586,9 @@
 
       .section-our-results {
         background-image: url(images/headphones_hero_1.jpg);
+        color: white;
+      }
+
+      .section-our-results a {
+        color: white;
       }
