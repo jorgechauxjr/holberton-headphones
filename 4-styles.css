@@ -660,4 +660,24 @@
 
 .footer p {
   text-align: center;
+  padding-bottom: 10px;
 }
+
+/* Section footer
+      ============================= */
+
+      @media screen and (max-width: 500px) {
+        .footer {
+          display: block;
+          /* text-align: center; */
+          /* background-color: yellow; */
+        }
+        .footer img {
+          margin-left: 200px;
+        }
+
+        .social {
+          text-align: center;
+          margin-left: 120px;
+        }
+      }
